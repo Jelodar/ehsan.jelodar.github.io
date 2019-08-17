@@ -869,11 +869,11 @@ padding:4px
 }
 
 #project-dialog-slideshow-img-container {
-height:472px!important
+/*height:472px!important*/
 }
 
 .project-dialog-slider-figure > img {
-height:472px!important;
+/*height:472px!important;*/
 max-height:472px
 }
 

@@ -523,7 +523,11 @@ line-height:30px
 }
 
 #about-me-image-container {
-margin:30px auto
+margin:30px auto;
+max-width: 330px;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+overflow: hidden;
 }
 
 #about-me-image-container img {

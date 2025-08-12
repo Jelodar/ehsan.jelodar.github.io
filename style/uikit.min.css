@@ -3403,7 +3403,7 @@ color:#ddd
 
 .uk-modal-spinner:after {
 content:"\f110";
-font-family:FontAwesome;
+font-family: FontAwesome;
 -webkit-animation:uk-rotate 2s infinite linear;
 animation:uk-rotate 2s infinite linear
 }
@@ -3416,14 +3416,16 @@ height:60px;
 line-height:60px;
 color:rgba(255,255,255,0.4);
 font-size:38px;
-text-align:center
+text-align: center;
+background: #00000061;
+/*border-radius: 50%;*/
 }
 
 .uk-slidenav:hover,.uk-slidenav:focus {
-outline:none;
-text-decoration:none;
+outline: none;
+text-decoration: none;
 color:rgba(255,255,255,0.8);
-cursor:pointer
+cursor: pointer;
 }
 
 .uk-slidenav:active {
@@ -3431,7 +3433,7 @@ color:rgba(255,255,255,0.95)
 }
 
 .uk-slidenav-position {
-position:relative
+position:relative;
 }
 
 .uk-slidenav-position .uk-slidenav {
